@@ -10,7 +10,11 @@ body{
 
 #white { 
     background-color: #EEECE1;
-    padding: 5px;
+    position: absolute right;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #gray{
