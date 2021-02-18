@@ -4,59 +4,56 @@ p{
 }
 
 body{
-    background-color: #9f9fad;
-    text-align: center;
-}
-
-#white { 
     background-color: #EEECE1;
-    position: absolute right;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #gray{
     background-color: #9f9fad;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    border: 0px;
 }
 
-h1{
+#header{
+    background-color: #9f9fad;
+    margin: -8px;
+}
+
+#nav{
+    background-color: #9f9fad;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border: 2px black;
+}
+
+#navh{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1, h2, h3{
     color: #005582;
     font-weight: bold;
-    display: block;
-    background-color: #47E5BC;
-    height: 180px;
-    width: 180px;
-    line-height: 180px;
-    border-radius: 90px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     
 }
 
-h2{
-    color: #005582;
-    display: block;
-    background-color: #47E5BC;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    border-radius: 40px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3{
-    color: #005582;
-}
+li a:hover {
+    background-color: #111;
+  }
 
 a:hover{
     color: #AECFDF;
 }
 
-ul{
+ol{
     list-style-type: none;
 }
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+  }
