@@ -20,11 +20,10 @@ body{
 }
 
 #nav{
-    background-color: #9f9fad;
+    background-color: #005582;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    border: 2px black;
 }
 
 #navh{
@@ -33,6 +32,10 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+a{
+    color:#EEECE1;
 }
 
 h1, h2, h3{
@@ -56,4 +59,12 @@ ol{
 .active {
     background-color: #4CAF50;
     color: white;
+  }
+
+
+
+  @media print {
+      nav{
+          display: none;
+      }
   }
