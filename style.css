@@ -40,8 +40,6 @@ a{
 
 h1, h2, h3{
     color: #005582;
-    font-weight: bold;
-    
 }
 
 li a:hover {
@@ -56,14 +54,7 @@ ol{
     list-style-type: none;
 }
 
-.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-
-
-
-  @media print {
+@media print {
       nav{
           display: none;
       }
