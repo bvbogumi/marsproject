@@ -19,25 +19,6 @@ body{
     margin: -8px;
 }
 
-#nav{
-    background-color: #005582;
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-}
-
-#navh{
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a{
-    color:#EEECE1;
-}
-
 h1, h2, h3{
     color: #005582;
 }
