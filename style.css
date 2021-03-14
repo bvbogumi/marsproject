@@ -42,14 +42,6 @@ h1, h2, h3{
     color: #005582;
 }
 
-li a:hover {
-    background-color: #111;
-  }
-
-a:hover{
-    color: #AECFDF;
-}
-
 ol{
     list-style-type: none;
 }
