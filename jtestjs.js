@@ -10,7 +10,7 @@ $(document).ready(function(){
     
     $("#noun1").change(function(){
       var noun1 = $("#noun1").val();
-      $("h2").text("You smell like a "+noun1+".");
+      $("h2").text("You smell like a "+noun1+". I am just kidding as I am learning to have some fun with Javascript and JQuery!");
     
     });
    
