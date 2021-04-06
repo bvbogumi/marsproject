@@ -36,3 +36,12 @@ ol{
   .card {
       display: none;
   }
+
+  .hidden{
+    display: none;
+  }
+  
+  #cat-img{
+    max-width: 50%;
+    max-height: 400px;
+  }
