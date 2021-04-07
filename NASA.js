@@ -1,8 +1,9 @@
 $(document).ready(function(){
-    var apod = $.get("https://api.nasa.gov/planetary/apod?api_key=o5RPlXYkPrndsjnmhuZsSbQDZoBdtbLhTdrpGoj4");
-    console.log(apod);    
+    $("#show").click(function(){
+        var apod = $.get("https://api.nasa.gov/planetary/apod?api_key=o5RPlXYkPrndsjnmhuZsSbQDZoBdtbLhTdrpGoj4");
+        console.log(apod);    
             
-    apod.done(function(response){
+        apod.done(function(response){
             var data = response[0];
             $("#url").attr("src", data.url);
                 
@@ -11,6 +12,7 @@ $(document).ready(function(){
                 $("h1").text("Title: "+title+);
     
             
+            });
             });
         });
 });
