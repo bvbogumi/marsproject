@@ -7,12 +7,12 @@ $(document).ready(function(){
             var data = response[0];
             $("#url").attr("src", data.url);
                 
-            $("#title").change(function(){
-                var title = data.title;
-                $("h1").text("Title: "+title+);
-    
             
-            });
             });
         });
 });
+
+// $("#title").change(function(){
+//    var title = data.title;
+//    $("h1").text("Title: "+title+);
+//  });
