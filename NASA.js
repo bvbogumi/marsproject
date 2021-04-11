@@ -4,15 +4,12 @@ $(document).ready(function(){
         console.log(apod);    
             
         apod.done(function(response){
-            var data = response[0];
-            $("#url").attr("src", data.url);
-                
-            
+            $("#url").attr("src", response.url);
+            $("#title").text(response.title);
+            $("#explanation").text(response.explanation);
+            $("#copyright").text(response.copyright);
+                       
             });
         });
 });
 
-// $("#title").change(function(){
-//    var title = data.title;
-//    $("h1").text("Title: "+title+);
-//  });
