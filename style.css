@@ -32,12 +32,7 @@ ol{
           display: none;
       }
   }
-
-  .card {
-      display: none;
-  }
-
-   
+ 
   #url, #url1, #url2, #url3, #url02, #url12, #url22, #url32, #url30, #url31, #url322, #url33{
     
     max-width: 75%;
