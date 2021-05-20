@@ -1,0 +1,44 @@
+p{ 
+    color: #011e2e;
+    font-size: 16px;
+}
+
+body{
+    background-color: #EEECE1;
+}
+
+#gray{
+    background-color: #9f9fad;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    border: 0px;
+}
+
+#header{
+    background-color: #9f9fad;
+    margin: -8px;
+}
+
+h1, h2, h3{
+    color: #005582;
+}
+
+ol{
+    list-style-type: none;
+}
+
+@media print {
+      nav{
+          display: none;
+      }
+  }
+ 
+  #url, #url1, #url2, #url3, #url02, #url12, #url22, #url32, #url30, #url31, #url322, #url33{
+    
+    max-width: 75%;
+  }
+
+  #curiosity {
+    max-width: 60%
+  }
+
