@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>List Example</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" >
+	</head>
+
+<body>
+
+<section class="container">
+    <h1>My Shopping List</h1>
+    <table class="table table-bordered table-striped w-auto">
+      <thead>
+        <tr>
+          <th scope="col" class="th-sm">Delete</th>
+          <th scope="col">Item</th>
+          <th scope="col">Qty.</th>
+        </tr>
+      </thead>
+      <tbody>
+  
+      </tbody>
+    </table>
+    <button type="button" class="btn btn-large btn-primary" id="btn-delete">Delete Selected Item</button>
+  </section>
+  
+  <hr/>
+  
+  <section class="container">
+    <h2>Add New Item</h2>
+    <form id="add-form">
+      <div class="form-group">
+        <label for="item">Item</label>
+        <input type="text" class="form-control" id="item">
+      </div>
+      <div class="form-group">
+      <label for="quantity">Quantity</label>
+      <select class="form-control" id="quantity">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      </div>
+  
+      <button id="add" class="btn btn-primary btn-large">Add New Item</button>
+    </form>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script language="JavaScript" src="list.js"></script>
+</body>
+</html>
